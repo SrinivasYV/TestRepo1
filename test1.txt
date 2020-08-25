@@ -1,0 +1,10 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 98BD-97D6
+
+ Directory of C:\Users\SRINIVAS YV\Desktop\GIT Project
+
+25-08-2020  14:32    <DIR>          .
+25-08-2020  14:32    <DIR>          ..
+25-08-2020  14:32                 0 test1.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  178,142,076,928 bytes free
