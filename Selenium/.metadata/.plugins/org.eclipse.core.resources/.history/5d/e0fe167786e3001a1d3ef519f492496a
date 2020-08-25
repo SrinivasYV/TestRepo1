@@ -1,0 +1,46 @@
+package test.java;
+
+import org.testng.annotations.Test;
+
+public class helloworld {
+
+@Test
+public void sample() {
+	
+	System.out.println("hi good morning");
+	
+	
+		}
+
+@Test
+public void Fibonacci() {
+	
+	System.out.println("hi good morning");
+	
+	
+		}
+
+
+@Test
+public void test() {
+	
+	System.out.println("Have Breakfast");
+	
+	
+		}
+
+@Test
+public void text() {
+	
+	System.out.println("Lunch is Ready Please come to dining Hall");
+	
+		}
+
+@Test
+public void number() {
+	
+	System.out.println("Tea is Ready with Sancks and also Birthday Celebration");
+	
+	
+		}
+}

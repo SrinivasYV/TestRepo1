@@ -1,0 +1,14 @@
+package Test;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class SoftAssertDemo {
+	@Test
+	public void testSoft() {
+		SoftAssert assertion=new SoftAssert();
+		assertion.assertEquals(12, 13);
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package test;
+
+import org.testng.annotations.Test;
+
+class sample {
+
+@Test
+	void test() {
+		fail("Not yet implemented");
+	
+	}
+}

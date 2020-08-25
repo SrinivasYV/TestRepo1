@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gradle Test">
+  <test name="Testing Multiple Programs">
+    <classes>
+      <class name="test.Fibonacci"/>
+      <class name="test.Palindrome"/>
+      <class name="test.helloworld"/>
+      <class name="test.sample"/>
+      <class name="test.LeapYear"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

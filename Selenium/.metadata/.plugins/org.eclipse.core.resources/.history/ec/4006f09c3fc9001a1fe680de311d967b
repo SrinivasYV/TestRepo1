@@ -1,0 +1,28 @@
+package Test;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class SoftAssertDemo {
+	
+	@Test
+	public void testSoft() {
+		SoftAssert assertion=new SoftAssert();
+		System.out.println("test 1 started");
+		
+		//Soft Assertion continues even if the test condition fails.
+		assertion.assertEquals(12, 13); //test condition
+		System.out.println("test 1 completes");
+		assertion.assertAll();//this method is mandatory for SoftAssert
+	}
+	
+	@Test
+	public void testHardAsset() {
+		System.out.println("Hardassert  started");
+		Assert.assertEquals(12, 13); //test condition
+		System.out.println("Hardassert completes");
+	
+	}
+
+}

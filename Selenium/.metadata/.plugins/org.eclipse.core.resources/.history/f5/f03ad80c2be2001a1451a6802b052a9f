@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Testing Multiple Programs">
+    <classes>
+      <class name="test.AssertExample"/>
+      <class name="test.sample"/>
+      <class name="test.TestAssertionDemo"/>
+      <class name="test.SoftAssertDemo"/>
+      <class name="test.helloworld"/>
+      <class name="test.TestAssertions"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
