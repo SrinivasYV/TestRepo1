@@ -1,0 +1,22 @@
+package Test;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestAssertionDemo {
+	
+	@Test
+	public void test1() {
+	String mystr="Selenium Test";	
+    Assert.assertTrue(mystr.contains("Selenium"));
+	}
+	
+	@Test
+	public void test2() {
+    Assert.assertTrue(false);
+	}
+	
+	
+	
+
+}

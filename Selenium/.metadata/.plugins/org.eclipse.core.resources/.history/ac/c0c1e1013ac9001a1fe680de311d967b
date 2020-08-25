@@ -1,0 +1,24 @@
+package Test;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestAssertions {
+
+	
+	@Test
+	public void test1() {
+		Assert.assertEquals(12, 13);
+		
+	}
+	
+	@Test
+	public void test2() {
+		Assert.assertEquals(12, 13,"This error message will display when test fails");
+		
+	}
+	
+	
+		
+	}
+	
